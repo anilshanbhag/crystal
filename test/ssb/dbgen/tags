@@ -1,0 +1,1078 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+101	history.html	/^<li><A NAME="101">Changes as of 06\/04\/99<\/A><ul>$/;"	a
+131old	history.html	/^<\/ul><li><A NAME="131old">Changes as of 2\/6\/98<\/A><UL>$/;"	a
+19991011	history.html	/^<li><A NAME="19991011">Changes as of 10\/11\/99<\/A><ul>$/;"	a
+20000511	history.html	/^<li><A NAME="20000511">Changes as of 5\/11\/00<\/A><ul>$/;"	a
+2001old	history.html	/^<li><A NAME="2001old">Changes as of 3\/11\/98<\/A><UL>$/;"	a
+2002	history.html	/^<li><a name="2002">Changes as of 3\/20\/98<\/a><ul>$/;"	a
+2003	history.html	/^<li><a name="2003">Changes as of 3\/24\/98<\/a><ul>$/;"	a
+2004	history.html	/^<li><a name="2004">Changes as of 7 April 98<\/a><ul>$/;"	a
+2006	history.html	/^<li><a name="2006">Changes as of 5\/20\/98<\/a><ul>$/;"	a
+2007old	history.html	/^<li><A NAME="2007old">Changes as of 10\/23\/98<\/A><ul>$/;"	a
+2008old	history.html	/^<li><A NAME="2008old">Changes as of 11\/17\/98<\/A><ul>$/;"	a
+200old	history.html	/^<li><A NAME="200old">Changes as of 12\/08\/98<\/A><ul>$/;"	a
+201old	history.html	/^<li><A NAME="201old">Changes as of 01\/05\/99<ul>$/;"	a
+990708	history.html	/^<li><a name="990708">Changes as of 07\/08\/99<\/a><ul>$/;"	a
+990816	history.html	/^<li><A NAME="990816">Changes as of 08\/16\/99<\/A><ul>$/;"	a
+990830	history.html	/^<li><A NAME="990830">Changes as of 08\/30\/99<\/A><ul>$/;"	a
+ADD_AT_END	dss.h	71;"	d
+ADHOC_DFLT	dss.h	487;"	d
+ADHOC_TAG	dss.h	486;"	d
+ADVANCE_STREAM	speed_seed.c	11;"	d	file:
+ALLSRC	makefile	/^ALLSRC=$(DBGENSRC) $/;"	m
+ANS	makefile	/^ANS   = 1.ans 2.ans 3.ans 4.ans 5.ans 6.ans 7.ans 8.ans 9.ans 10.ans 11.ans \\$/;"	m
+ANSI	tpcd.h	18;"	d
+BBB_BASE	dss.h	340;"	d
+BBB_BASE_LEN	dss.h	344;"	d
+BBB_CMNT_LEN	dss.h	343;"	d
+BBB_CMNT_SD	dss.h	590;"	d
+BBB_COMMEND	dss.h	342;"	d
+BBB_COMPLAIN	dss.h	341;"	d
+BBB_DEADBEATS	dss.h	339;"	d
+BBB_JNK_SD	dss.h	588;"	d
+BBB_OFFSET_SD	dss.h	591;"	d
+BBB_TYPE_LEN	dss.h	345;"	d
+BBB_TYPE_SD	dss.h	589;"	d
+BITS_PER_LONG	dss.h	112;"	d
+CC	makefile	/^CC      = gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS	= -O -DDBNAME=\\"dss\\" -D$(MACHINE) -D$(DATABASE) -D$(WORKLOAD)$/;"	m
+CITY_CODE_SEED	shared.h	38;"	d
+CITY_FIX	shared.h	42;"	d
+COMMENT	tpcd.h	20;"	d
+CONFIG_DFLT	dss.h	485;"	d
+CONFIG_TAG	dss.h	484;"	d
+CURRENTDATE	dss.h	426;"	d
+CUST	dss.h	61;"	d
+CUST_MORTALITY	dss.h	422;"	d
+C_ABAL_MAX	dss.h	365;"	d
+C_ABAL_MIN	dss.h	364;"	d
+C_ABAL_SD	dss.h	576;"	d
+C_ADDR_LEN	shared.h	86;"	d
+C_ADDR_LEN	shared.h	90;"	d
+C_ADDR_MAX	shared.h	87;"	d
+C_ADDR_MAX	shared.h	91;"	d
+C_ADDR_SD	shared.h	130;"	d
+C_CMNT_LEN	shared.h	95;"	d
+C_CMNT_MAX	shared.h	96;"	d
+C_CMNT_SD	shared.h	131;"	d
+C_DATES	dss.h	46;"	d
+C_MSEG_LEN	shared.h	94;"	d
+C_MSEG_MAX	dss.h	363;"	d
+C_MSEG_MAX	shared.h	85;"	d
+C_MSEG_MIN	shared.h	84;"	d
+C_MSEG_SD	dss.h	577;"	d
+C_NAME_FMT	dss.h	362;"	d
+C_NAME_LEN	shared.h	83;"	d
+C_NAME_LEN	shared.h	89;"	d
+C_NAME_TAG	dss.h	361;"	d
+C_NATION_NAME_LEN	shared.h	24;"	d
+C_NAT_SD	shared.h	26;"	d
+C_NTRG_SD	dss.h	574;"	d
+C_PHNE_SD	dss.h	575;"	d
+C_REGION_NAME_LEN	shared.h	25;"	d
+C_REG_SD	shared.h	27;"	d
+C_SIZE	dss.h	360;"	d
+DATABASE	makefile	/^DATABASE=DB2 $/;"	m
+DATE	dss.h	20;"	d
+DATE_LEN	shared.h	114;"	d
+DBASE	tpcd.h	12;"	d
+DBGENSRC	makefile	/^DBGENSRC=$(SRC1) $(HDR1) $(OTHER) $(DOC) $(SRC2) $(HDR2) $(SRC3)$/;"	m
+DBNAME	config.h	164;"	d
+DDL	makefile	/^DDL  = dss.ddl dss.ri$/;"	m
+DECLARER	driver.c	4;"	d	file:
+DECLARER	permute.c	8;"	d	file:
+DECLARER	qgen.c	6;"	d	file:
+DECLARER	text.c	10;"	d	file:
+DFLT	tpcd.h	9;"	d
+DFLT_NUM	tpcd.h	23;"	d
+DIGITS_PER_LONG	bcd2.c	18;"	d	file:
+DIST_DFLT	dss.h	481;"	d
+DIST_MEMBER	dss.h	157;"	d
+DIST_SIZE	dss.h	156;"	d
+DIST_TAG	dss.h	480;"	d
+DOC	makefile	/^DOC=README HISTORY PORTING.NOTES BUGS$/;"	m
+DOUBLE_CAST	config.h	177;"	d
+DOUBLE_CAST	config.h	71;"	d
+DSS_H	dss.h	8;"	d
+DSS_HUGE	config.h	106;"	d
+DSS_HUGE	config.h	139;"	d
+DSS_HUGE	config.h	172;"	d
+DSS_HUGE	config.h	64;"	d
+DSS_PROC	config.h	160;"	d
+DSS_PROC	config.h	52;"	d
+DT_CHR	dss.h	504;"	d
+DT_HUGE	dss.h	501;"	d
+DT_INT	dss.h	500;"	d
+DT_KEY	dss.h	502;"	d
+DT_MONEY	dss.h	503;"	d
+DT_STR	dss.h	494;"	d
+DT_VSTR	dss.h	496;"	d
+DT_VSTR	dss.h	498;"	d
+D_DATE_LEN	shared.h	31;"	d
+D_DAYWEEK_LEN	shared.h	32;"	d
+D_MONTH_LEN	shared.h	35;"	d
+D_SEASON_LEN	shared.h	34;"	d
+D_STARTDATE	shared.h	36;"	d
+D_YEARMONTH_LEN	shared.h	33;"	d
+ENDDATE	dss.h	427;"	d
+END_TRAN	tpcd.h	39;"	d
+END_TRAN	tpcd.h	48;"	d
+END_TRAN	tpcd.h	57;"	d
+END_TRAN	tpcd.h	66;"	d
+END_TRAN	tpcd.h	75;"	d
+EOL_HANDLING	config.h	111;"	d
+EXE	makefile	/^EXE     =$/;"	m
+EXPLAIN	tpcd.h	11;"	d
+EXTERN	dss.h	223;"	d
+EXTERN	dss.h	225;"	d
+Exponential	rnd.c	/^Exponential(double dMean, long nStream)$/;"	f
+FAKE_V_STR	speed_seed.c	8;"	d	file:
+FREE_HUGE	dss.h	447;"	d
+F_FatalError	speed_seed.c	/^void F_FatalError( int x, char *y, int z ) {fprintf(stderr, "Bang!\\n");}$/;"	f
+FatalError	speed_seed.c	93;"	d	file:
+GEN_QUERY_PLAN	tpcd.h	37;"	d
+GEN_QUERY_PLAN	tpcd.h	46;"	d
+GEN_QUERY_PLAN	tpcd.h	55;"	d
+GEN_QUERY_PLAN	tpcd.h	64;"	d
+GEN_QUERY_PLAN	tpcd.h	73;"	d
+GET_DIGIT	bcd2.c	20;"	d	file:
+HDR	makefile	/^HDR  = $(HDR1) $(HDR2)$/;"	m
+HDR1	makefile	/^HDR1 = dss.h rnd.h config.h dsstypes.h shared.h bcd2.h$/;"	m
+HDR2	makefile	/^HDR2 = tpcd.h permute.h$/;"	m
+HUGE2LONG	dss.h	450;"	d
+HUGE2LONG	dss.h	460;"	d
+HUGE_ADD	dss.h	454;"	d
+HUGE_ADD	dss.h	466;"	d
+HUGE_CMP	dss.h	457;"	d
+HUGE_CMP	dss.h	475;"	d
+HUGE_COUNT	config.h	107;"	d
+HUGE_COUNT	config.h	140;"	d
+HUGE_COUNT	config.h	173;"	d
+HUGE_COUNT	config.h	65;"	d
+HUGE_DIV	dss.h	453;"	d
+HUGE_DIV	dss.h	465;"	d
+HUGE_FORMAT	config.h	141;"	d
+HUGE_FORMAT	config.h	66;"	d
+HUGE_MOD	dss.h	456;"	d
+HUGE_MOD	dss.h	474;"	d
+HUGE_MUL	dss.h	452;"	d
+HUGE_MUL	dss.h	464;"	d
+HUGE_SET	dss.h	451;"	d
+HUGE_SET	dss.h	463;"	d
+HUGE_SUB	dss.h	455;"	d
+HUGE_SUB	dss.h	470;"	d
+HVAR_SD	dss.h	583;"	d
+INIT	tpcd.h	21;"	d
+INIT_HUGE	dss.h	443;"	d
+INTERNAL_ERROR	dss.h	82;"	d
+ITERATIONS	permute.c	67;"	d	file:
+JDAY	build.c	34;"	d	file:
+JDAY_BASE	build.c	32;"	d	file:
+JMNTH_BASE	build.c	33;"	d	file:
+JUNK	makefile	/^JUNK  = $/;"	m
+KILL	config.h	116;"	d
+KILL	config.h	125;"	d
+KILL	config.h	154;"	d
+LDFLAGS	makefile	/^LDFLAGS = -O$/;"	m
+LEAP	dss.h	411;"	d
+LEAP_ADJ	build.c	30;"	d	file:
+LIBS	makefile	/^LIBS    = -lm$/;"	m
+LIFENOISE	dss.h	85;"	d
+LINE	dss.h	63;"	d
+LINE_SIZE	qgen.c	25;"	d	file:
+LN_CNT	dss.h	83;"	d
+LOG	tpcd.h	15;"	d
+LONG2HUGE	dss.h	449;"	d
+LONG2HUGE	dss.h	459;"	d
+L_CDTE_MAX	dss.h	403;"	d
+L_CDTE_MIN	dss.h	402;"	d
+L_CDTE_SD	dss.h	571;"	d
+L_CMNT_LEN	shared.h	109;"	d
+L_CMNT_MAX	shared.h	110;"	d
+L_CMNT_SD	shared.h	134;"	d
+L_DCNT_MAX	dss.h	390;"	d
+L_DCNT_MIN	dss.h	389;"	d
+L_DCNT_SD	dss.h	564;"	d
+L_INST_LEN	shared.h	111;"	d
+L_PKEY_MAX	dss.h	395;"	d
+L_PKEY_MAX	dss.h	397;"	d
+L_PKEY_MIN	dss.h	391;"	d
+L_PKEY_SD	dss.h	568;"	d
+L_QTY_MAX	dss.h	386;"	d
+L_QTY_MIN	dss.h	385;"	d
+L_QTY_SD	dss.h	563;"	d
+L_RDTE_MAX	dss.h	405;"	d
+L_RDTE_MIN	dss.h	404;"	d
+L_RDTE_SD	dss.h	572;"	d
+L_RFLG_SD	dss.h	573;"	d
+L_SDTE_MAX	dss.h	401;"	d
+L_SDTE_MIN	dss.h	400;"	d
+L_SDTE_SD	dss.h	570;"	d
+L_SHIP_SD	dss.h	566;"	d
+L_SIZE	dss.h	384;"	d
+L_SKEY_MAX	dss.h	24;"	d
+L_SKEY_MIN	dss.h	23;"	d
+L_SKEY_SD	dss.h	569;"	d
+L_SMODE_LEN	shared.h	112;"	d
+L_SMODE_SD	dss.h	567;"	d
+L_TAX_MAX	dss.h	388;"	d
+L_TAX_MIN	dss.h	387;"	d
+L_TAX_SD	dss.h	565;"	d
+MACHINE	makefile	/^MACHINE =LINUX $/;"	m
+MALLOC_CHECK	dss.h	88;"	d
+MAX	dss.h	74;"	d
+MAX	dss.h	79;"	d
+MAXAGG_LEN	shared.h	120;"	d
+MAXAGG_LEN	shared.h	123;"	d
+MAX_32B_SCALE	dss.h	442;"	d
+MAX_CHILDREN	dss.h	103;"	d
+MAX_COLOR	speed_seed.c	14;"	d	file:
+MAX_GRAMMAR_LEN	dss.h	216;"	d
+MAX_LONG	dss.h	113;"	d
+MAX_PARAM	varsub.c	20;"	d	file:
+MAX_PERMUTE	tpcd.h	94;"	d
+MAX_PIDS	tpcd.h	84;"	d
+MAX_QUERY	permute.c	66;"	d	file:
+MAX_SCALE	dss.h	438;"	d
+MAX_SENT_LEN	dss.h	217;"	d
+MAX_STREAM	dss.h	430;"	d
+MAX_TABLE	dss.h	69;"	d
+MAX_VARS	tpcd.h	81;"	d
+MIN	dss.h	77;"	d
+MIN	dss.h	80;"	d
+MIN_SCALE	dss.h	437;"	d
+MK_SPARSE	dss.h	117;"	d
+MODIFICATION	dss.h	14;"	d
+MODIFICATION	dss.h	32;"	d
+MODIFICATION	dss.h	39;"	d
+MONEY_SCL	shared.h	9;"	d
+Modulus	speed_seed.c	/^static DSS_HUGE Modulus =  2147483647;   \/* trick you use to get 64 bit int *\/$/;"	v	file:
+Multiplier	speed_seed.c	/^static DSS_HUGE Multiplier = 16807;      \/* or whatever nonstandard *\/$/;"	v	file:
+NAME	dss.h	11;"	d
+NAME	dss.h	29;"	d
+NAME	dss.h	36;"	d
+NAMTION_BRIEF_LEN	shared.h	37;"	d
+NATION	dss.h	66;"	d
+NATIONS_MAX	dss.h	423;"	d
+NATION_LEN	shared.h	115;"	d
+NOATOM	driver.c	33;"	d	file:
+NOATOM	permute.c	34;"	d	file:
+NOATOM	text.c	35;"	d	file:
+NOCOMM	driver.c	45;"	d	file:
+NOCOMM	permute.c	46;"	d	file:
+NOCOMM	text.c	47;"	d	file:
+NOGDICAPMASKS	driver.c	34;"	d	file:
+NOGDICAPMASKS	permute.c	35;"	d	file:
+NOGDICAPMASKS	text.c	36;"	d	file:
+NOKANJI	driver.c	46;"	d	file:
+NOKANJI	permute.c	47;"	d	file:
+NOKANJI	text.c	48;"	d	file:
+NOMCX	driver.c	47;"	d	file:
+NOMCX	permute.c	48;"	d	file:
+NOMCX	text.c	49;"	d	file:
+NOMETAFILE	driver.c	35;"	d	file:
+NOMETAFILE	permute.c	36;"	d	file:
+NOMETAFILE	text.c	37;"	d	file:
+NOMINMAX	driver.c	36;"	d	file:
+NOMINMAX	permute.c	37;"	d	file:
+NOMINMAX	text.c	38;"	d	file:
+NOMSG	driver.c	37;"	d	file:
+NOMSG	permute.c	38;"	d	file:
+NOMSG	text.c	39;"	d	file:
+NONE	dss.h	57;"	d
+NOOPENFILE	driver.c	38;"	d	file:
+NOOPENFILE	permute.c	39;"	d	file:
+NOOPENFILE	text.c	40;"	d	file:
+NORASTEROPS	driver.c	39;"	d	file:
+NORASTEROPS	permute.c	40;"	d	file:
+NORASTEROPS	text.c	41;"	d	file:
+NOSCROLL	driver.c	40;"	d	file:
+NOSCROLL	permute.c	41;"	d	file:
+NOSCROLL	text.c	42;"	d	file:
+NOSOUND	driver.c	41;"	d	file:
+NOSOUND	permute.c	42;"	d	file:
+NOSOUND	text.c	43;"	d	file:
+NOSYSMETRICS	driver.c	42;"	d	file:
+NOSYSMETRICS	permute.c	43;"	d	file:
+NOSYSMETRICS	text.c	44;"	d	file:
+NOTEXTMETRIC	driver.c	43;"	d	file:
+NOTEXTMETRIC	permute.c	44;"	d	file:
+NOTEXTMETRIC	text.c	45;"	d	file:
+NOWH	driver.c	44;"	d	file:
+NOWH	permute.c	45;"	d	file:
+NOWH	text.c	46;"	d	file:
+NO_FUNC	driver.c	5;"	d	file:
+NO_LFUNC	driver.c	6;"	d	file:
+NUM_DAYS	shared.h	39;"	d
+NUM_HOLIDAYS	shared.h	41;"	d
+NUM_SEASONS	shared.h	40;"	d
+N_CMNT_LEN	shared.h	5;"	d
+N_CMNT_MAX	shared.h	6;"	d
+N_CMNT_SD	dss.h	585;"	d
+NextRand	rnd.c	/^NextRand(long nSeed)$/;"	f
+NthElement	speed_seed.c	/^NthElement ( long Shift, long *Seed)$/;"	f
+NthElement	speed_seed.c	/^void NthElement (long N, long *StartSeed)$/;"	f
+OBJ	makefile	/^OBJ     = .o$/;"	m
+OBJ1	makefile	/^OBJ1 = build$(OBJ) driver$(OBJ) bm_utils$(OBJ) rnd$(OBJ) print$(OBJ) \\$/;"	m
+OBJ2	makefile	/^OBJ2 = build$(OBJ) bm_utils$(OBJ) qgen$(OBJ) rnd$(OBJ) varsub$(OBJ) \\$/;"	m
+OBJS	makefile	/^OBJS = $(OBJ1) $(OBJ2)$/;"	m
+ONE_STREAM	dss.h	70;"	d
+OPEN_CHECK	dss.h	95;"	d
+ORDER	dss.h	62;"	d
+ORDERS_PER_CUST	dss.h	421;"	d
+ORDER_LINE	dss.h	64;"	d
+OTHER	makefile	/^OTHER=makefile.suite $(SETS) $(DDL) $/;"	m
+OUTPUT	tpcd.h	10;"	d
+O_CKEY_MAX	dss.h	371;"	d
+O_CKEY_MIN	dss.h	370;"	d
+O_CKEY_SD	dss.h	584;"	d
+O_CLRK_FMT	dss.h	376;"	d
+O_CLRK_LEN	shared.h	106;"	d
+O_CLRK_SCL	dss.h	377;"	d
+O_CLRK_SD	dss.h	561;"	d
+O_CLRK_TAG	dss.h	375;"	d
+O_CMNT_LEN	shared.h	107;"	d
+O_CMNT_MAX	shared.h	108;"	d
+O_CMNT_SD	shared.h	129;"	d
+O_CREAT	bm_utils.c	78;"	d	file:
+O_LCNT_MAX	dss.h	379;"	d
+O_LCNT_MIN	dss.h	378;"	d
+O_LCNT_SD	dss.h	587;"	d
+O_ODATE_MAX	dss.h	373;"	d
+O_ODATE_MIN	dss.h	372;"	d
+O_ODATE_SD	dss.h	562;"	d
+O_OPRIO_LEN	shared.h	102;"	d
+O_OPRIO_LEN	shared.h	99;"	d
+O_PRIO_SD	dss.h	582;"	d
+O_RDONLY	bm_utils.c	72;"	d	file:
+O_SHIP_MODE_LEN	shared.h	29;"	d
+O_SHIP_PRIO_LEN	shared.h	30;"	d
+O_SHIP_STRU_LEN	shared.h	28;"	d
+O_SIZE	dss.h	369;"	d
+O_SUPP_SD	dss.h	560;"	d
+O_WRONLY	bm_utils.c	75;"	d	file:
+PART	dss.h	58;"	d
+PART_PSUPP	dss.h	65;"	d
+PART_SUPP_BRIDGE	build.c	35;"	d	file:
+PATCH	dss.h	15;"	d
+PATCH	dss.h	33;"	d
+PATCH	dss.h	40;"	d
+PATH_DFLT	dss.h	483;"	d
+PATH_SEP	config.h	136;"	d
+PATH_SEP	config.h	168;"	d
+PATH_SEP	config.h	53;"	d
+PATH_TAG	dss.h	482;"	d
+PENNIES	dss.h	432;"	d
+PHONE_FMT	dss.h	424;"	d
+PHONE_LEN	shared.h	117;"	d
+PROG1	makefile	/^PROG1 = dbgen$(EXE)$/;"	m
+PROG2	makefile	/^PROG2 = qgen$(EXE)$/;"	m
+PROGS	makefile	/^PROGS = $(PROG1) $(PROG2)$/;"	m
+PROTO	bm_utils.c	89;"	d	file:
+PROTO	bm_utils.c	91;"	d	file:
+PROTO	dss.h	181;"	d
+PROTO	dss.h	183;"	d
+PR_CHR	dss.h	514;"	d
+PR_DATE	dss.h	519;"	d
+PR_DATE	dss.h	523;"	d
+PR_DATE	dss.h	526;"	d
+PR_END	dss.h	516;"	d
+PR_HUGE	dss.h	511;"	d
+PR_INT	dss.h	510;"	d
+PR_KEY	dss.h	512;"	d
+PR_MONEY	dss.h	513;"	d
+PR_STR	dss.h	507;"	d
+PR_STRT	dss.h	515;"	d
+PR_VSTR	dss.h	508;"	d
+PR_VSTR_LAST	dss.h	509;"	d
+PSUPP	dss.h	59;"	d
+PS_CMNT_LEN	shared.h	79;"	d
+PS_CMNT_MAX	shared.h	80;"	d
+PS_CMNT_SD	shared.h	128;"	d
+PS_QTY_MAX	dss.h	356;"	d
+PS_QTY_MIN	dss.h	355;"	d
+PS_QTY_SD	dss.h	558;"	d
+PS_SCST_MAX	dss.h	354;"	d
+PS_SCST_MIN	dss.h	353;"	d
+PS_SCST_SD	dss.h	559;"	d
+PS_SIZE	dss.h	350;"	d
+PS_SKEY_MAX	dss.h	352;"	d
+PS_SKEY_MIN	dss.h	351;"	d
+P_BRND_FMT	dss.h	312;"	d
+P_BRND_LEN	shared.h	50;"	d
+P_BRND_MAX	dss.h	318;"	d
+P_BRND_MIN	dss.h	313;"	d
+P_BRND_SD	dss.h	553;"	d
+P_BRND_TAG	dss.h	311;"	d
+P_CAT_LEN	shared.h	18;"	d
+P_CAT_MAX	shared.h	20;"	d
+P_CAT_MIN	shared.h	19;"	d
+P_CAT_SD	shared.h	21;"	d
+P_CAT_SEED	shared.h	64;"	d
+P_CMNT_LEN	shared.h	62;"	d
+P_CMNT_MAX	shared.h	63;"	d
+P_CMNT_SD	shared.h	127;"	d
+P_CNTR_LEN	shared.h	61;"	d
+P_CNTR_SD	dss.h	556;"	d
+P_COLOR_LEN	shared.h	15;"	d
+P_COLOR_MAX	shared.h	16;"	d
+P_MCST_MAX	dss.h	324;"	d
+P_MCST_MIN	dss.h	323;"	d
+P_MCST_SCL	dss.h	325;"	d
+P_MFG_FMT	dss.h	308;"	d
+P_MFG_LEN	shared.h	14;"	d
+P_MFG_LEN	shared.h	46;"	d
+P_MFG_MAX	dss.h	310;"	d
+P_MFG_MIN	dss.h	309;"	d
+P_MFG_SD	dss.h	552;"	d
+P_MFG_TAG	dss.h	307;"	d
+P_NAME_LEN	shared.h	13;"	d
+P_NAME_LEN	shared.h	45;"	d
+P_NAME_SCL	dss.h	303;"	d
+P_NAME_SCL	dss.h	305;"	d
+P_NAME_SD	dss.h	581;"	d
+P_RCST_MAX	dss.h	327;"	d
+P_RCST_MIN	dss.h	326;"	d
+P_RCST_SCL	dss.h	328;"	d
+P_RCST_SD	dss.h	557;"	d
+P_SIZE	dss.h	301;"	d
+P_SIZE_MAX	dss.h	322;"	d
+P_SIZE_MIN	dss.h	321;"	d
+P_SIZE_SD	dss.h	555;"	d
+P_TYPE_LEN	shared.h	53;"	d
+P_TYPE_LEN	shared.h	57;"	d
+P_TYPE_MAX	shared.h	17;"	d
+P_TYPE_SD	dss.h	554;"	d
+Q11_FRACTION	dss.h	433;"	d
+QD	makefile	/^QD=1.sql 2.sql 3.sql 4.sql 5.sql 6.sql 7.sql 8.sql 9.sql 10.sql \\$/;"	m
+QDIR_DFLT	tpcd.h	31;"	d
+QDIR_TAG	tpcd.h	30;"	d
+QLEN_MAX	tpcd.h	82;"	d
+QSRC	makefile	/^QSRC  = $(FQD) $(VARIANTS)$/;"	m
+QUERIES_PER_SET	tpcd.h	83;"	d
+QUERY	tpcd.h	16;"	d
+RANDOM	dss.h	120;"	d
+REFRESH	tpcd.h	17;"	d
+REGION	dss.h	67;"	d
+REGION_LEN	shared.h	116;"	d
+RELEASE	dss.h	13;"	d
+RELEASE	dss.h	31;"	d
+RELEASE	dss.h	38;"	d
+RND	speed_seed.c	/^typedef signed long RND;$/;"	t	file:
+RND_ModMult	speed_seed.c	/^RND_ModMult ( RND nA, RND nB)$/;"	f	file:
+RND_seed	speed_seed.c	/^RND_seed ( RND Order            )$/;"	f
+RNG_PER_SENT	dss.h	218;"	d
+RPRICE_BRIDGE	build.c	41;"	d	file:
+R_CMNT_LEN	shared.h	7;"	d
+R_CMNT_MAX	shared.h	8;"	d
+R_CMNT_SD	dss.h	586;"	d
+SEED	tpcd.h	19;"	d
+SEED_T	dss.h	/^typedef struct SEED_T {$/;"	s
+SEPARATOR	dss.h	491;"	d
+SEQUENCE	tpcd.h	99;"	d
+SETS	makefile	/^SETS = dists.dss $/;"	m
+SET_DBASE	tpcd.h	42;"	d
+SET_DBASE	tpcd.h	51;"	d
+SET_DBASE	tpcd.h	60;"	d
+SET_DBASE	tpcd.h	69;"	d
+SET_DBASE	tpcd.h	78;"	d
+SET_DIGIT	bcd2.c	25;"	d	file:
+SET_HANDLER	config.h	117;"	d
+SET_HANDLER	config.h	124;"	d
+SET_HANDLER	config.h	155;"	d
+SET_OUTPUT	tpcd.h	40;"	d
+SET_OUTPUT	tpcd.h	49;"	d
+SET_OUTPUT	tpcd.h	58;"	d
+SET_OUTPUT	tpcd.h	67;"	d
+SET_OUTPUT	tpcd.h	76;"	d
+SET_ROWCOUNT	tpcd.h	41;"	d
+SET_ROWCOUNT	tpcd.h	50;"	d
+SET_ROWCOUNT	tpcd.h	59;"	d
+SET_ROWCOUNT	tpcd.h	68;"	d
+SET_ROWCOUNT	tpcd.h	77;"	d
+SIGS_DEFINED	config.h	119;"	d
+SIGS_DEFINED	config.h	135;"	d
+SPARSE_BITS	dss.h	115;"	d
+SPARSE_KEEP	dss.h	116;"	d
+SPAWN	config.h	115;"	d
+SPAWN	config.h	128;"	d
+SPAWN	config.h	131;"	d
+SPAWN	config.h	156;"	d
+SRC	makefile	/^SRC  = $(SRC1) $(SRC2)$/;"	m
+SRC1	makefile	/^SRC1 = build.c driver.c bm_utils.c rnd.c print.c load_stub.c bcd2.c \\$/;"	m
+SRC2	makefile	/^SRC2 = qgen.c varsub.c $/;"	m
+STARTDATE	dss.h	425;"	d
+START_TRAN	tpcd.h	38;"	d
+START_TRAN	tpcd.h	47;"	d
+START_TRAN	tpcd.h	56;"	d
+START_TRAN	tpcd.h	65;"	d
+START_TRAN	tpcd.h	74;"	d
+STDLIB_HAS_GETOPT	config.h	100;"	d
+STDLIB_HAS_GETOPT	config.h	104;"	d
+STDLIB_HAS_GETOPT	config.h	58;"	d
+STDLIB_HAS_GETOPT	config.h	76;"	d
+STDLIB_HAS_GETOPT	config.h	88;"	d
+STDLIB_HAS_GETOPT	config.h	92;"	d
+STDLIB_HAS_GETOPT	config.h	96;"	d
+SUPP	dss.h	60;"	d
+SUPPORT_64BITS	config.h	105;"	d
+SUPPORT_64BITS	config.h	138;"	d
+SUPPORT_64BITS	config.h	63;"	d
+SUPP_PER_PART	dss.h	420;"	d
+S_ABAL_MAX	dss.h	336;"	d
+S_ABAL_MIN	dss.h	335;"	d
+S_ABAL_SD	dss.h	580;"	d
+S_ADDR_LEN	shared.h	69;"	d
+S_ADDR_LEN	shared.h	73;"	d
+S_ADDR_MAX	shared.h	70;"	d
+S_ADDR_MAX	shared.h	74;"	d
+S_ADDR_SD	shared.h	132;"	d
+S_CMNT_BBB	dss.h	338;"	d
+S_CMNT_LEN	shared.h	77;"	d
+S_CMNT_MAX	dss.h	337;"	d
+S_CMNT_MAX	shared.h	78;"	d
+S_CMNT_SD	shared.h	133;"	d
+S_ISFIFO	bm_utils.c	58;"	d	file:
+S_ISREG	bm_utils.c	57;"	d	file:
+S_NAME_FMT	dss.h	334;"	d
+S_NAME_LEN	shared.h	66;"	d
+S_NAME_TAG	dss.h	333;"	d
+S_NATION_NAME_LEN	shared.h	22;"	d
+S_NTRG_SD	dss.h	578;"	d
+S_PHNE_SD	dss.h	579;"	d
+S_REGION_NAME_LEN	shared.h	23;"	d
+S_SIZE	dss.h	332;"	d
+Seed	rnd.h	/^seed_t     Seed[MAX_STREAM + 1] =$/;"	v
+TERMINATE	tpcd.h	22;"	d
+TEST_RES	makefile	/^TEST_RES = O.res L.res c.res s.res P.res S.res n.res r.res$/;"	m
+TEXT	build.c	44;"	d	file:
+TIMING	tpcd.h	14;"	d
+TOTDATE	dss.h	428;"	d
+TPC	dss.h	45;"	d
+TREE_DOC	makefile	/^TREE_DOC=tree.readme tree.changes appendix.readme appendix.version answers.readme queries.readme variants.readme$/;"	m
+TREE_ROOT	makefile	/^TREE_ROOT=\/tmp\/tree$/;"	m
+T_ALPHA_LEN	shared.h	113;"	d
+T_SIZE	dss.h	409;"	d
+T_START_DAY	dss.h	410;"	d
+UNIFORM	dss.h	547;"	d
+UNSET	permute.c	68;"	d	file:
+UPDATE	dss.h	68;"	d
+UPD_PCT	dss.h	429;"	d
+URND	speed_seed.c	/^typedef unsigned long URND;$/;"	t	file:
+UnifInt	rnd.c	/^UnifInt(long nLow, long nHigh, long nStream)$/;"	f
+UnifReal	rnd.c	/^UnifReal(double dLow, double dHigh, long nStream)$/;"	f
+VARIANTS	makefile	/^VARIANTS= 8a.sql 12a.sql 13a.sql 14a.sql 15a.sql $/;"	m
+VERBOSE	tpcd.h	13;"	d
+VERSION	dss.h	12;"	d
+VERSION	dss.h	30;"	d
+VERSION	dss.h	37;"	d
+VRF_CHR	dss.h	542;"	d
+VRF_END	dss.h	544;"	d
+VRF_HUGE	dss.h	536;"	d
+VRF_HUGE	dss.h	538;"	d
+VRF_INT	dss.h	534;"	d
+VRF_MONEY	dss.h	541;"	d
+VRF_STR	dss.h	533;"	d
+VRF_STRT	dss.h	543;"	d
+VSTR_MAX	rnd.h	29;"	d
+VTAG	tpcd.h	28;"	d
+V_STR	build.c	42;"	d	file:
+V_STR_HGH	shared.h	10;"	d
+V_STR_LOW	dss.h	431;"	d
+WAIT	config.h	118;"	d
+WAIT	config.h	129;"	d
+WAIT	config.h	132;"	d
+WAIT	config.h	157;"	d
+WIFEXITED	config.h	146;"	d
+WIFSIGNALED	config.h	147;"	d
+WIFSTOPPED	config.h	148;"	d
+WIN32	config.h	60;"	d
+WIN32_LEAN_AND_MEAN	driver.c	32;"	d	file:
+WIN32_LEAN_AND_MEAN	permute.c	33;"	d	file:
+WIN32_LEAN_AND_MEAN	text.c	34;"	d	file:
+WORD_DIVISOR	bcd2.c	19;"	d	file:
+WORKLOAD	makefile	/^WORKLOAD =SSBM $/;"	m
+WSTOPSIG	config.h	150;"	d
+WTERMSIG	config.h	149;"	d
+_GNU_SOURCE	bm_utils.c	26;"	d	file:
+_INCLUDE_POSIX_SOURCE	config.h	75;"	d
+_POSIX_SOURCE	config.h	80;"	d
+a_rnd	bm_utils.c	/^a_rnd(int min, int max, int column, char *dest)$/;"	f
+acctbal	dsstypes.h	/^    long            acctbal;$/;"	m	struct:__anon17
+acctbal	dsstypes.h	/^    long            acctbal;$/;"	m	struct:__anon8
+address	dsstypes.h	/^    char            address[C_ADDR_MAX + 1];$/;"	m	struct:__anon7
+address	dsstypes.h	/^    char            address[C_ADDR_MAX + 1];$/;"	m	struct:__anon8
+address	dsstypes.h	/^    char            address[S_ADDR_MAX + 1];$/;"	m	struct:__anon16
+address	dsstypes.h	/^    char            address[S_ADDR_MAX + 1];$/;"	m	struct:__anon17
+adjectives	dss.h	/^EXTERN distribution adjectives;$/;"	v
+adverbs	dss.h	/^EXTERN distribution adverbs;$/;"	v
+agg_str	bm_utils.c	/^agg_str(distribution *set, long count, long col, char *dest)$/;"	f
+alen	dsstypes.h	/^    int             alen; $/;"	m	struct:__anon16
+alen	dsstypes.h	/^    int             alen;$/;"	m	struct:__anon17
+alen	dsstypes.h	/^    int             alen;$/;"	m	struct:__anon7
+alen	dsstypes.h	/^    int             alen;$/;"	m	struct:__anon8
+alpha	dsstypes.h	/^    char            alpha[DATE_LEN];$/;"	m	struct:__anon19
+alpha_num	bm_utils.c	/^static char alpha_num[65] =$/;"	v	file:
+articles	dss.h	/^EXTERN distribution articles;$/;"	v
+asc_date	qgen.c	/^char **asc_date;$/;"	v
+auxillaries	dss.h	/^EXTERN distribution auxillaries;$/;"	v
+base	dss.h	/^   long      base;$/;"	m	struct:__anon5
+bcd2_add	bcd2.c	/^bcd2_add(long *bcd_low, long *bcd_high, long addend)$/;"	f
+bcd2_bin	bcd2.c	/^bcd2_bin(long *dest, long bcd)$/;"	f
+bcd2_cmp	bcd2.c	/^bcd2_cmp(long *low1, long *high1, long comp)$/;"	f
+bcd2_div	bcd2.c	/^bcd2_div(long *bcd_low, long *bcd_high, long divisor)$/;"	f
+bcd2_mod	bcd2.c	/^bcd2_mod(long *bcd_low, long *bcd_high, long modulo)$/;"	f
+bcd2_mul	bcd2.c	/^bcd2_mul(long *bcd_low, long *bcd_high, long multiplier)$/;"	f
+bcd2_sub	bcd2.c	/^bcd2_sub(long *bcd_low, long *bcd_high, long subend)$/;"	f
+bin_bcd2	bcd2.c	/^bin_bcd2(long binary, long *low_res, long *high_res)$/;"	f
+boundary	dss.h	/^	long boundary;$/;"	m	struct:SEED_T
+brand	dsstypes.h	/^    char           brand[P_BRND_LEN + 1];$/;"	m	struct:__anon14
+brand	dsstypes.h	/^    char           brand[P_BRND_LEN + 1];$/;"	m	struct:__anon15
+brands	varsub.c	/^long brands[25] = {11,12,13,14,15,21,22,23,24,25,31,32,33,34,35,$/;"	v
+c_mseg_set	dss.h	/^EXTERN distribution c_mseg_set;$/;"	v
+category	dsstypes.h	/^    char           category[P_CAT_LEN + 1];$/;"	m	struct:__anon14
+ccode	varsub.c	/^long ccode[25] = {10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34};$/;"	v
+cdate	dsstypes.h	/^    char            cdate[DATE_LEN];$/;"	m	struct:__anon10
+child	dss.h	/^   int       child;$/;"	m	struct:__anon5
+children	dss.h	/^EXTERN long children;$/;"	v
+city	dsstypes.h	/^    char            city[CITY_FIX +1];$/;"	m	struct:__anon16
+city	dsstypes.h	/^    char            city[CITY_FIX+1];$/;"	m	struct:__anon7
+clen	dsstypes.h	/^    int             clen;$/;"	m	struct:__anon17
+clen	dsstypes.h	/^    int             clen;$/;"	m	struct:__anon20
+clen	dsstypes.h	/^    int             clen;$/;"	m	struct:__anon8
+clen	dsstypes.h	/^    int            clen;$/;"	m	struct:__anon10
+clen	dsstypes.h	/^    int            clen;$/;"	m	struct:__anon12
+clen	dsstypes.h	/^    int            clen;$/;"	m	struct:__anon13
+clen	dsstypes.h	/^    int            clen;$/;"	m	struct:__anon14
+clen	dsstypes.h	/^    int            clen;$/;"	m	struct:__anon15
+clerk	dsstypes.h	/^    char            clerk[O_CLRK_LEN + 1];$/;"	m	struct:__anon11
+clerk	dsstypes.h	/^    char            clerk[O_CLRK_LEN + 1];$/;"	m	struct:__anon12
+close_direct	load_stub.c	/^close_direct(void)$/;"	f
+code	dsstypes.h	/^    long            code;$/;"	m	struct:__anon20
+code_t	dsstypes.h	/^}               code_t;$/;"	t	typeref:struct:__anon20
+color	dsstypes.h	/^    char           color[P_COLOR_MAX + 1];$/;"	m	struct:__anon14
+colors	dss.h	/^EXTERN distribution colors;$/;"	v
+columnar	dss.h	/^EXTERN long columnar;$/;"	v
+comment	dss.h	/^   char     *comment;$/;"	m	struct:__anon5
+comment	dsstypes.h	/^    char            comment[C_CMNT_MAX + 1];$/;"	m	struct:__anon8
+comment	dsstypes.h	/^    char            comment[N_CMNT_MAX + 1];$/;"	m	struct:__anon20
+comment	dsstypes.h	/^    char            comment[O_CMNT_MAX + 1];$/;"	m	struct:__anon12
+comment	dsstypes.h	/^    char            comment[S_CMNT_MAX + 1];$/;"	m	struct:__anon17
+comment	dsstypes.h	/^    char           comment[L_CMNT_MAX + 1];$/;"	m	struct:__anon10
+comment	dsstypes.h	/^    char           comment[PS_CMNT_MAX + 1];$/;"	m	struct:__anon13
+comment	dsstypes.h	/^    char           comment[P_CMNT_MAX + 1];$/;"	m	struct:__anon15
+commit_date	dsstypes.h	/^    char            commit_date[DATE_LEN] ;$/;"	m	struct:__anon9
+container	dsstypes.h	/^    char           container[P_CNTR_LEN + 1];$/;"	m	struct:__anon14
+container	dsstypes.h	/^    char           container[P_CNTR_LEN + 1];$/;"	m	struct:__anon15
+count	dss.h	/^   int      count;$/;"	m	struct:__anon4
+custkey	dsstypes.h	/^    long            custkey;$/;"	m	struct:__anon11
+custkey	dsstypes.h	/^    long            custkey;$/;"	m	struct:__anon12
+custkey	dsstypes.h	/^    long            custkey;$/;"	m	struct:__anon7
+custkey	dsstypes.h	/^    long            custkey;$/;"	m	struct:__anon8
+custkey	dsstypes.h	/^    long            custkey;$/;"	m	struct:__anon9
+customer_t	dsstypes.h	/^}               customer_t;$/;"	t	typeref:struct:__anon7
+customer_t	dsstypes.h	/^}               customer_t;$/;"	t	typeref:struct:__anon8
+dM	rnd.h	/^static double   dM = 2147483647.0;$/;"	v
+d_path	dss.h	/^EXTERN char *d_path;$/;"	v
+date	dsstypes.h	/^   char            date[D_DATE_LEN+1];$/;"	m	struct:__anon18
+date_t	dsstypes.h	/^}      date_t;$/;"	t	typeref:struct:__anon18
+datekey	dsstypes.h	/^   long            datekey;$/;"	m	struct:__anon18
+day	dss.h	/^  int day;$/;"	m	struct:__anon2
+day	dsstypes.h	/^    long            day;$/;"	m	struct:__anon19
+daynuminmonth	dsstypes.h	/^   int             daynuminmonth;$/;"	m	struct:__anon18
+daynuminweek	dsstypes.h	/^   int             daynuminweek;$/;"	m	struct:__anon18
+daynuminyear	dsstypes.h	/^   int             daynuminyear;$/;"	m	struct:__anon18
+dayofweek	dsstypes.h	/^   char            dayofweek[D_DAYWEEK_LEN+1] ;$/;"	m	struct:__anon18
+days	build.c	/^	long      days;$/;"	m	struct:__anon6	file:
+days_in_a_month	build.c	/^int days_in_a_month[12]={31,28,31,30,31,30,31,31,30,31,30,31};$/;"	v
+days_in_a_month_l	build.c	/^int days_in_a_month_l[12]={31,29,31,30,31,30,31,31,30,31,30,31};$/;"	v
+db_name	dss.h	/^EXTERN char *db_name;$/;"	v
+dbg_print	print.c	/^dbg_print(int format, FILE *target, void *data, int len, int sep)$/;"	f
+dbg_text	text.c	/^dbg_text(char *tgt, int min, int max, int sd)$/;"	f
+dcnt	build.c	/^	long      dcnt;$/;"	m	struct:__anon6	file:
+defaults	varsub.c	/^char *defaults[24][11] =$/;"	v
+delete_segment	dss.h	/^EXTERN int delete_segment;$/;"	v
+delete_segments	dss.h	/^EXTERN int delete_segments;$/;"	v
+direct	dss.h	/^EXTERN long direct;$/;"	v
+discount	dsstypes.h	/^    long            discount;$/;"	m	struct:__anon10
+discount	dsstypes.h	/^    long           discount;$/;"	m	struct:__anon9
+distribution	dss.h	/^}         distribution;$/;"	t	typeref:struct:__anon4
+dss_random	rnd.c	/^dss_random(long *tgt, long lower, long upper, long stream)$/;"	f
+dss_time_t	dsstypes.h	/^} dss_time_t;               $/;"	t	typeref:struct:__anon19
+dsscasecmp	bm_utils.c	/^dsscasecmp(char *s1, char *s2)$/;"	f
+dssncasecmp	bm_utils.c	/^dssncasecmp(char *s1, char *s2, int n)$/;"	f
+dump_seeds	rnd.c	/^dump_seeds(int tbl)$/;"	f
+e_str	bm_utils.c	/^e_str(distribution *d, int min, int max, int stream, char *dest)$/;"	f
+end_day	dss.h	/^  int end_day;$/;"	m	struct:__anon1
+end_month	dss.h	/^  int end_month;$/;"	m	struct:__anon1
+env_config	bm_utils.c	/^env_config(char *var, char *dflt)$/;"	f
+eol	permute.c	/^char *eol[2] = {" ", "},"};$/;"	v
+eprice	dsstypes.h	/^    long            eprice;$/;"	m	struct:__anon10
+extended_price	dsstypes.h	/^    long           extended_price;$/;"	m	struct:__anon9
+ez_sparse	build.c	/^ez_sparse(long i, DSS_HUGE *ok, long seq)$/;"	f
+fake_a_rnd	speed_seed.c	/^fake_a_rnd(int min, int max, int column)$/;"	f
+fdopen	bm_utils.c	66;"	d	file:
+flags	tpcd.h	/^EXTERN int flags;$/;"	v
+flt_scale	driver.c	/^double flt_scale;$/;"	v
+flt_scale	qgen.c	/^double flt_scale;$/;"	v
+fnames	dss.h	/^EXTERN long fnames;$/;"	v
+force	dss.h	/^EXTERN long force;$/;"	v
+gen_category	build.c	/^gen_category(char *target, long seed){$/;"	f	file:
+gen_city	build.c	/^int gen_city(char *cityName, char *nationName){$/;"	f
+gen_color	build.c	/^int gen_color(char * source, char * dest){$/;"	f
+gen_holiday_fl	build.c	/^int gen_holiday_fl(char * dest, int month, int day){$/;"	f
+gen_phone	build.c	/^gen_phone(long ind, char *target, long seed)$/;"	f	file:
+gen_rng	dss.h	/^EXTERN int  gen_rng;$/;"	v
+gen_season	build.c	/^int gen_season(char * dest,int month,int day)$/;"	f
+gen_seed	dss.h	/^   long      (*gen_seed)();$/;"	m	struct:__anon5
+gen_sql	dss.h	/^EXTERN int  gen_sql;$/;"	v
+gen_tbl	driver.c	/^gen_tbl (int tnum, long start, long count, long upd_num)$/;"	f
+getopt	bm_utils.c	/^getopt(int ac, char **av, char *opt)$/;"	f
+getpid	config.h	133;"	d
+grammar	dss.h	/^EXTERN distribution grammar;$/;"	v
+hd_cust	load_stub.c	/^hd_cust (FILE *f)$/;"	f
+hd_line	load_stub.c	/^hd_line (FILE *f)$/;"	f
+hd_nation	load_stub.c	/^hd_nation (FILE *f)$/;"	f
+hd_order	load_stub.c	/^hd_order (FILE *f)$/;"	f
+hd_order_line	load_stub.c	/^hd_order_line (FILE *f)$/;"	f
+hd_part	load_stub.c	/^hd_part (FILE *f)$/;"	f
+hd_part_psupp	load_stub.c	/^hd_part_psupp (FILE *f)$/;"	f
+hd_psupp	load_stub.c	/^hd_psupp (FILE *f)$/;"	f
+hd_region	load_stub.c	/^hd_region (FILE *f)$/;"	f
+hd_sparse	build.c	/^hd_sparse(long i, DSS_HUGE *ok, long seq)$/;"	f
+hd_supp	load_stub.c	/^hd_supp (FILE *f)$/;"	f
+header	dss.h	/^   int       (*header) ();$/;"	m	struct:__anon5
+header	dss.h	/^EXTERN long header;$/;"	v
+holiday	dss.h	/^} holiday;$/;"	t	typeref:struct:__anon2
+holidayfl	dsstypes.h	/^   char            holidayfl[2];$/;"	m	struct:__anon18
+holidays	build.c	/^holiday holidays[]={$/;"	v
+ifile	tpcd.h	/^EXTERN char *ifile;$/;"	v
+insert_lineitem_segment	dss.h	/^EXTERN int insert_lineitem_segment;$/;"	v
+insert_orders_segment	dss.h	/^EXTERN int insert_orders_segment;$/;"	v
+insert_segments	dss.h	/^EXTERN int insert_segments;$/;"	v
+is_last_day_in_month	build.c	/^is_last_day_in_month(int year,int month,int day){$/;"	f
+join	dsstypes.h	/^    long            join;$/;"	m	struct:__anon20
+julian	bm_utils.c	/^julian(long date)$/;"	f
+kill_load	driver.c	/^kill_load (void)$/;"	f
+l	dsstypes.h	/^    line_t          l[O_LCNT_MAX];$/;"	m	struct:__anon12
+l_category_set	dss.h	/^EXTERN distribution l_category_set;$/;"	v
+l_instruct_set	dss.h	/^EXTERN distribution l_instruct_set;$/;"	v
+l_rflag_set	dss.h	/^EXTERN distribution l_rflag_set;$/;"	v
+l_smode_set	dss.h	/^EXTERN distribution l_smode_set;$/;"	v
+lastdayinmonthfl	dsstypes.h	/^   char            lastdayinmonthfl[2];$/;"	m	struct:__anon18
+lastdayinweekfl	dsstypes.h	/^   char            lastdayinweekfl[2];$/;"	m	struct:__anon18
+lcnt	dsstypes.h	/^    long            lcnt;$/;"	m	struct:__anon10
+ld_cust	load_stub.c	/^ld_cust (customer_t *cp, int mode)$/;"	f
+ld_date	load_stub.c	/^ld_date (date_t *d, int mode)$/;"	f
+ld_line	load_stub.c	/^ld_line (order_t *p, int mode)$/;"	f
+ld_nation	load_stub.c	/^ld_nation (code_t *cp, int mode)$/;"	f
+ld_order	load_stub.c	/^ld_order (order_t *p, int mode)$/;"	f
+ld_order_line	load_stub.c	/^ld_order_line (order_t *p, int mode)$/;"	f
+ld_part	load_stub.c	/^ld_part (part_t *pp, int mode)$/;"	f
+ld_part_psupp	load_stub.c	/^ld_part_psupp (part_t *p, int mode)$/;"	f
+ld_psupp	load_stub.c	/^ld_psupp (part_t *pp, int mode)$/;"	f
+ld_region	load_stub.c	/^ld_region (code_t *cp, int mode)$/;"	f
+ld_supp	load_stub.c	/^ld_supp (supplier_t *sp, int mode)$/;"	f
+lfile	tpcd.h	/^EXTERN char *lfile;$/;"	v
+line_t	dsstypes.h	/^}               line_t;$/;"	t	typeref:struct:__anon10
+linenumber	dsstypes.h	/^    int             linenumber; \/*integer, constrain to max of 7*\/$/;"	m	struct:__anon9
+lineorder_t	dsstypes.h	/^}  lineorder_t;$/;"	t	typeref:struct:__anon9
+lineorders	dsstypes.h	/^    lineorder_t     lineorders[O_LCNT_MAX];$/;"	m	struct:__anon11
+lines	dsstypes.h	/^    long            lines;$/;"	m	struct:__anon11
+lines	dsstypes.h	/^    long            lines;$/;"	m	struct:__anon12
+list	dss.h	/^   set_member *list;$/;"	m	struct:__anon4
+lnoise	dss.h	/^static char lnoise[4] = {'|', '\/', '-', '\\\\' };$/;"	v
+load_dists	driver.c	/^load_dists (void)$/;"	f
+loader	dss.h	/^   int       (*loader[2]) ();$/;"	m	struct:__anon5
+lstatus	dsstypes.h	/^    char            lstatus[1];$/;"	m	struct:__anon10
+main	bcd2.c	/^main()$/;"	f
+main	driver.c	/^main (int ac, char **av)$/;"	f
+main	permute.c	/^main(int ac, char *av[])$/;"	f
+main	qgen.c	/^main(int ac, char **av)$/;"	f
+main	text.c	/^main()$/;"	f
+max	dss.h	/^   int      max;$/;"	m	struct:__anon4
+mdes	build.c	/^	char     *mdes;$/;"	m	struct:__anon6	file:
+mfgr	dsstypes.h	/^    char           mfgr[P_MFG_LEN + 1];$/;"	m	struct:__anon14
+mfgr	dsstypes.h	/^    char           mfgr[P_MFG_LEN + 1];$/;"	m	struct:__anon15
+minrow	driver.c	/^long rowcnt = 0, minrow = 0, upd_num = 0;$/;"	v
+mk_ascdate	bm_utils.c	/^mk_ascdate(void)$/;"	f
+mk_cust	build.c	/^long mk_cust(long n_cust, customer_t *c)$/;"	f
+mk_cust	build.c	/^mk_cust(long n_cust, customer_t *c)$/;"	f
+mk_date	build.c	/^mk_date(long index,date_t *d)$/;"	f
+mk_nation	build.c	/^		mk_nation(long index, code_t *c)$/;"	f
+mk_order	build.c	/^mk_order(long index, order_t *o, long upd_num)$/;"	f
+mk_part	build.c	/^long mk_part(long index, part_t *p)$/;"	f
+mk_part	build.c	/^mk_part(long index, part_t *p)$/;"	f
+mk_region	build.c	/^		mk_region(long index, code_t *c)$/;"	f
+mk_sparse	build.c	/^mk_sparse (long i, DSS_HUGE *ok, long seq)$/;"	f
+mk_supp	build.c	/^mk_supp(long index, supplier_t *s)$/;"	f
+mk_time	build.c	/^mk_time(long index, dss_time_t *t)$/;"	f
+mktsegment	dsstypes.h	/^    char            mktsegment[MAXAGG_LEN + 1];$/;"	m	struct:__anon7
+mktsegment	dsstypes.h	/^    char            mktsegment[MAXAGG_LEN + 1];$/;"	m	struct:__anon8
+month	dss.h	/^  int month;$/;"	m	struct:__anon2
+month	dsstypes.h	/^    long            month;$/;"	m	struct:__anon19
+month	dsstypes.h	/^   char            month[D_MONTH_LEN+1];$/;"	m	struct:__anon18
+month_names	build.c	/^char * month_names[]={"January","February","March","April",$/;"	v
+monthnuminyear	dsstypes.h	/^   int             monthnuminyear;$/;"	m	struct:__anon18
+months	build.c	/^months[] =$/;"	v	typeref:struct:__anon6
+nA	rnd.h	/^static long     nA = 16807;     \/* the multiplier *\/$/;"	v
+nM	rnd.h	/^static long     nM = 2147483647;\/* the modulus == 2^31 - 1 *\/$/;"	v
+nQ	rnd.h	/^static long     nQ = 127773;    \/* the quotient nM \/ nA *\/$/;"	v
+nR	rnd.h	/^static long     nR = 2836;      \/* the remainder nM % nA *\/$/;"	v
+name	dss.h	/^   char     *name;$/;"	m	struct:__anon5
+name	dss.h	/^  char * name;$/;"	m	struct:__anon1
+name	dss.h	/^  char * name;$/;"	m	struct:__anon2
+name	dsstypes.h	/^    char            name[C_NAME_LEN + 1];$/;"	m	struct:__anon7
+name	dsstypes.h	/^    char            name[C_NAME_LEN + 1];$/;"	m	struct:__anon8
+name	dsstypes.h	/^    char            name[S_NAME_LEN + 1];$/;"	m	struct:__anon16
+name	dsstypes.h	/^    char            name[S_NAME_LEN + 1];$/;"	m	struct:__anon17
+name	dsstypes.h	/^    char           name[P_NAME_LEN + 1];$/;"	m	struct:__anon14
+name	dsstypes.h	/^    char           name[P_NAME_LEN + 1];$/;"	m	struct:__anon15
+name_bits	speed_seed.c	/^long name_bits[MAX_COLOR \/ BITS_PER_LONG];$/;"	v
+nation_code	dsstypes.h	/^    long            nation_code;$/;"	m	struct:__anon17
+nation_code	dsstypes.h	/^    long            nation_code;$/;"	m	struct:__anon8
+nation_key	dsstypes.h	/^    int             nation_key;$/;"	m	struct:__anon16
+nation_key	dsstypes.h	/^    int             nation_key;$/;"	m	struct:__anon7
+nation_name	dsstypes.h	/^    char            nation_name[C_NATION_NAME_LEN+1];$/;"	m	struct:__anon7
+nation_name	dsstypes.h	/^    char            nation_name[S_NATION_NAME_LEN+1];$/;"	m	struct:__anon16
+nations	dss.h	/^EXTERN distribution nations;$/;"	v
+nations2	dss.h	/^EXTERN distribution nations2;$/;"	v
+nlen	dsstypes.h	/^    int             nlen;$/;"	m	struct:__anon7
+nlen	dsstypes.h	/^    int            nlen;$/;"	m	struct:__anon14
+nlen	dsstypes.h	/^    int            nlen;$/;"	m	struct:__anon15
+nouns	dss.h	/^EXTERN distribution nouns;$/;"	v
+np	dss.h	/^EXTERN distribution np;$/;"	v
+o_priority_set	dss.h	/^EXTERN distribution o_priority_set;$/;"	v
+odate	dsstypes.h	/^    char            odate[DATE_LEN];$/;"	m	struct:__anon11
+odate	dsstypes.h	/^    char            odate[DATE_LEN];$/;"	m	struct:__anon12
+ofp	tpcd.h	29;"	d
+okey	dsstypes.h	/^    DSS_HUGE	    *okey;  \/*for clustering line items*\/$/;"	m	struct:__anon9
+okey	dsstypes.h	/^    DSS_HUGE	    *okey; $/;"	m	struct:__anon10
+okey	dsstypes.h	/^    DSS_HUGE	    *okey;$/;"	m	struct:__anon11
+okey	dsstypes.h	/^    DSS_HUGE	    *okey;$/;"	m	struct:__anon12
+open	bm_utils.c	69;"	d	file:
+opriority	dsstypes.h	/^    char            opriority[MAXAGG_LEN + 1];$/;"	m	struct:__anon11
+opriority	dsstypes.h	/^    char            opriority[MAXAGG_LEN + 1];$/;"	m	struct:__anon12
+opriority	dsstypes.h	/^    char            opriority[MAXAGG_LEN + 1];$/;"	m	struct:__anon9
+optarg	bm_utils.c	/^char *optarg = NULL;$/;"	v
+opterr	bm_utils.c	/^int opterr = 0;$/;"	v
+optind	bm_utils.c	/^int optind = 0;$/;"	v
+order_t	dsstypes.h	/^}               order_t;$/;"	t	typeref:struct:__anon12
+order_t	dsstypes.h	/^}   order_t;$/;"	t	typeref:struct:__anon11
+order_totalprice	dsstypes.h	/^    long           order_totalprice;$/;"	m	struct:__anon9
+orderdate	dsstypes.h	/^    char            orderdate[DATE_LEN];$/;"	m	struct:__anon9
+orderstatus	dsstypes.h	/^    char            orderstatus;$/;"	m	struct:__anon12
+osuff	tpcd.h	/^EXTERN char *osuff;$/;"	v
+p_cntr_set	dss.h	/^EXTERN distribution p_cntr_set;$/;"	v
+p_types_set	dss.h	/^EXTERN distribution p_types_set;$/;"	v
+part_t	dsstypes.h	/^}               part_t;$/;"	t	typeref:struct:__anon14
+part_t	dsstypes.h	/^}               part_t;$/;"	t	typeref:struct:__anon15
+partial	driver.c	/^partial (int tbl, int s)$/;"	f
+partkey	dsstypes.h	/^    long            partkey;$/;"	m	struct:__anon10
+partkey	dsstypes.h	/^    long            partkey;$/;"	m	struct:__anon13
+partkey	dsstypes.h	/^    long            partkey;$/;"	m	struct:__anon9
+partkey	dsstypes.h	/^    long           partkey;$/;"	m	struct:__anon14
+partkey	dsstypes.h	/^    long           partkey;$/;"	m	struct:__anon15
+partsupp_t	dsstypes.h	/^}               partsupp_t;$/;"	t	typeref:struct:__anon13
+permutation	permute.h	/^long permutation[41][22] =$/;"	v
+permute	dss.h	/^   long *permute;$/;"	m	struct:__anon4
+permute	permute.c	/^permute(long *a, int c, long s)$/;"	f
+permute_dist	permute.c	/^permute_dist(distribution *d, long stream)$/;"	f
+phone	dsstypes.h	/^    char            phone[PHONE_LEN + 1];$/;"	m	struct:__anon16
+phone	dsstypes.h	/^    char            phone[PHONE_LEN + 1];$/;"	m	struct:__anon17
+phone	dsstypes.h	/^    char            phone[PHONE_LEN + 1];$/;"	m	struct:__anon7
+phone	dsstypes.h	/^    char            phone[PHONE_LEN + 1];$/;"	m	struct:__anon8
+pick_str	bm_utils.c	/^pick_str(distribution *s, int c, char *target)$/;"	f
+pid_t	config.h	123;"	d
+pids	driver.c	/^int *pids;$/;"	v
+pload	driver.c	/^pload (int tbl)$/;"	f
+pr_cust	print.c	/^pr_cust(customer_t *c, int mode)$/;"	f
+pr_date	print.c	/^int pr_date(date_t *d, int mode){$/;"	f
+pr_drange	print.c	/^pr_drange(int tbl, long min, long cnt, long num)$/;"	f
+pr_line	print.c	/^pr_line(order_t *o, int mode)$/;"	f
+pr_nation	print.c	/^pr_nation(code_t *c, int mode)$/;"	f
+pr_order	print.c	/^pr_order(order_t *o, int mode)$/;"	f
+pr_order_line	print.c	/^pr_order_line(order_t *o, int mode)$/;"	f
+pr_part	print.c	/^pr_part(part_t *part, int mode)$/;"	f
+pr_part_psupp	print.c	/^pr_part_psupp(part_t *part, int mode)$/;"	f
+pr_psupp	print.c	/^pr_psupp(part_t *part, int mode)$/;"	f
+pr_region	print.c	/^pr_region(code_t *c, int mode)$/;"	f
+pr_supp	print.c	/^pr_supp(supplier_t *supp, int mode)$/;"	f
+prep_direct	load_stub.c	/^prep_direct(void)$/;"	f
+prepositions	dss.h	/^EXTERN distribution prepositions;$/;"	v
+print_prep	print.c	/^print_prep(int table, int update)$/;"	f
+process_options	driver.c	/^process_options (int count, char **vector)$/;"	f
+process_options	qgen.c	/^process_options(int cnt, char **args)$/;"	f
+prog	qgen.c	/^char *prog;$/;"	v
+q13a	qgen.c	/^distribution q13a, q13b;$/;"	v
+q13b	qgen.c	/^distribution q13a, q13b;$/;"	v
+qnum	qgen.c	/^int qnum;$/;"	v
+qsub	qgen.c	/^qsub(char *qtag, int flags)$/;"	f
+qty	dsstypes.h	/^    long            qty;$/;"	m	struct:__anon13
+quantity	dsstypes.h	/^    long             quantity;$/;"	m	struct:__anon9
+quantity	dsstypes.h	/^    long            quantity;$/;"	m	struct:__anon10
+rdate	dsstypes.h	/^    char            rdate[DATE_LEN];$/;"	m	struct:__anon10
+read_dist	bm_utils.c	/^read_dist(char *path, char *name, distribution *target)$/;"	f
+refresh	dss.h	/^EXTERN int refresh;$/;"	v
+region_key	dsstypes.h	/^    int             region_key;$/;"	m	struct:__anon16
+region_key	dsstypes.h	/^    int             region_key;$/;"	m	struct:__anon7
+region_name	dsstypes.h	/^    char            region_name[C_REGION_NAME_LEN+1];$/;"	m	struct:__anon7
+region_name	dsstypes.h	/^    char            region_name[S_REGION_NAME_LEN+1];$/;"	m	struct:__anon16
+regions	dss.h	/^EXTERN distribution regions;$/;"	v
+resume	dss.h	/^EXTERN int resume;$/;"	v
+retailprice	dsstypes.h	/^    long           retailprice;$/;"	m	struct:__anon15
+revenue	dsstypes.h	/^    long           revenue;$/;"	m	struct:__anon9
+rflag	dsstypes.h	/^    char            rflag[1];$/;"	m	struct:__anon10
+rndm	qgen.c	/^long rndm;$/;"	v
+row_start	rnd.c	/^row_start(int t)	\\$/;"	f
+row_stop	rnd.c	/^row_stop(int t)	\\$/;"	f
+rowcnt	driver.c	/^long rowcnt = 0, minrow = 0, upd_num = 0;$/;"	v
+rowcnt	tpcd.h	/^int rowcnt;$/;"	v
+rowcnt_dflt	tpcd.h	/^int rowcnt_dflt[QUERIES_PER_SET + 1] = $/;"	v
+rpb_routine	build.c	/^rpb_routine(long p)$/;"	f
+s	dsstypes.h	/^    partsupp_t     s[SUPP_PER_PART];$/;"	m	struct:__anon15
+s_cnt	tpcd.h	/^EXTERN int s_cnt;$/;"	v
+scale	dss.h	/^EXTERN long scale;$/;"	v
+scost	dsstypes.h	/^    long            scost;$/;"	m	struct:__anon13
+sd_cust	speed_seed.c	/^sd_cust(int child, long skip_count)$/;"	f
+sd_line	speed_seed.c	/^sd_line(int child, long skip_count)$/;"	f
+sd_order	speed_seed.c	/^sd_order(int child, long skip_count)        $/;"	f
+sd_part	speed_seed.c	/^sd_part(int child, long skip_count)$/;"	f
+sd_psupp	speed_seed.c	/^sd_psupp(int child, long skip_count)$/;"	f
+sd_supp	speed_seed.c	/^sd_supp(int child, long skip_count)$/;"	f
+sdate	dsstypes.h	/^    char            sdate[DATE_LEN];$/;"	m	struct:__anon10
+season	dss.h	/^} season;$/;"	t	typeref:struct:__anon1
+seasons	build.c	/^season seasons[]={$/;"	v
+seed	permute.c	/^long seed;$/;"	v
+seed_t	dss.h	/^	} seed_t;$/;"	t	typeref:struct:SEED_T
+sellingseason	dsstypes.h	/^   char            sellingseason[D_SEASON_LEN + 1];$/;"	m	struct:__anon18
+set_files	driver.c	/^set_files (int i, int pload)$/;"	f
+set_member	dss.h	/^}         set_member;$/;"	t	typeref:struct:__anon3
+set_seeds	dss.h	/^EXTERN int	set_seeds;$/;"	v
+set_state	bm_utils.c	/^set_state(int table, long sf, long procs, long step, long *extra_rows)$/;"	f
+setup	qgen.c	/^setup(void)$/;"	f
+ship_priority	dsstypes.h	/^    long            ship_priority;$/;"	m	struct:__anon9
+shipinstruct	dsstypes.h	/^    char           shipinstruct[MAXAGG_LEN + 1];$/;"	m	struct:__anon10
+shipmode	dsstypes.h	/^    char            shipmode[O_SHIP_MODE_LEN + 1];$/;"	m	struct:__anon9
+shipmode	dsstypes.h	/^    char           shipmode[MAXAGG_LEN + 1];$/;"	m	struct:__anon10
+size	dsstypes.h	/^    long            size;$/;"	m	struct:__anon14
+size	dsstypes.h	/^    long           size;$/;"	m	struct:__anon15
+sizes	varsub.c	/^long sizes[50] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,$/;"	v
+slen	dsstypes.h	/^   int             slen;$/;"	m	struct:__anon18
+snum	qgen.c	/^int snum = -1;$/;"	v
+spawn_args	driver.c	/^char *spawn_args[25];$/;"	v
+spriority	dsstypes.h	/^    int             spriority;$/;"	m	struct:__anon11
+spriority	dsstypes.h	/^    long            spriority;$/;"	m	struct:__anon12
+start_day	dss.h	/^  int start_day;$/;"	m	struct:__anon1
+start_month	dss.h	/^  int start_month;$/;"	m	struct:__anon1
+stat	bm_utils.c	63;"	d	file:
+step	dss.h	/^EXTERN int  step;$/;"	v
+stop_proc	driver.c	/^stop_proc (int signum)$/;"	f
+stream	tpcd.h	/^EXTERN int stream;$/;"	v
+strip_comments	qgen.c	/^strip_comments(char *line)$/;"	f
+supp_cost	dsstypes.h	/^    long           supp_cost;$/;"	m	struct:__anon9
+suppkey	dsstypes.h	/^    long            suppkey;$/;"	m	struct:__anon10
+suppkey	dsstypes.h	/^    long            suppkey;$/;"	m	struct:__anon13
+suppkey	dsstypes.h	/^    long            suppkey;$/;"	m	struct:__anon16
+suppkey	dsstypes.h	/^    long            suppkey;$/;"	m	struct:__anon17
+suppkey	dsstypes.h	/^    long            suppkey;$/;"	m	struct:__anon9
+supplier_t	dsstypes.h	/^}               supplier_t;$/;"	t	typeref:struct:__anon16
+supplier_t	dsstypes.h	/^}               supplier_t;$/;"	t	typeref:struct:__anon17
+table	dss.h	/^	long table;$/;"	m	struct:SEED_T
+table	dss.h	/^EXTERN long table;$/;"	v
+tax	dsstypes.h	/^    long            tax;$/;"	m	struct:__anon10
+tax	dsstypes.h	/^    long           tax;$/;"	m	struct:__anon9
+tbl_open	bm_utils.c	/^tbl_open(int tbl, char *mode)$/;"	f
+tdef	dss.h	/^}         tdef;$/;"	t	typeref:struct:__anon5
+tdefs	driver.c	/^tdef tdefs[] =$/;"	v
+tdefs	permute.c	/^tdef tdefs = { NULL };$/;"	v
+tdefs	qgen.c	/^tdef tdefs = { NULL };$/;"	v
+tdefs	text.c	/^tdef tdefs = { NULL };$/;"	v
+terminators	dss.h	/^EXTERN distribution terminators;$/;"	v
+text	dss.h	/^   char     *text;$/;"	m	struct:__anon3
+text	dsstypes.h	/^    char            *text;$/;"	m	struct:__anon20
+tfile	tpcd.h	/^EXTERN char *tfile;$/;"	v
+timekey	dsstypes.h	/^    long            timekey;$/;"	m	struct:__anon19
+tlen	dsstypes.h	/^    int            tlen;$/;"	m	struct:__anon14
+tlen	dsstypes.h	/^    int            tlen;$/;"	m	struct:__anon15
+totalprice	dsstypes.h	/^    int             totalprice;$/;"	m	struct:__anon11
+totalprice	dsstypes.h	/^    long            totalprice;$/;"	m	struct:__anon12
+txt_np	text.c	/^txt_np(char *dest, int sd) $/;"	f	file:
+txt_sentence	text.c	/^txt_sentence(char *dest, int sd) $/;"	f	file:
+txt_vp	text.c	/^txt_vp(char *dest, int sd) $/;"	f	file:
+type	dsstypes.h	/^    char           type[P_TYPE_LEN + 1];$/;"	m	struct:__anon15
+type	dsstypes.h	/^    char           type[P_TYPE_MAX + 1];$/;"	m	struct:__anon14
+unjulian	bm_utils.c	/^unjulian(long date)$/;"	f
+upd_num	driver.c	/^long rowcnt = 0, minrow = 0, upd_num = 0;$/;"	v
+updates	dss.h	/^EXTERN long updates;$/;"	v
+usage	driver.c	/^usage (void)$/;"	f
+usage	dss.h	/^	long usage;$/;"	m	struct:SEED_T
+usage	qgen.c	/^usage(void)$/;"	f
+validate	dss.h	/^EXTERN int  validate;$/;"	v
+value	dss.h	/^	long value;$/;"	m	struct:SEED_T
+varsub	varsub.c	/^varsub(int qnum, int vnum, int flags)$/;"	f
+verbose	dss.h	/^EXTERN long verbose;$/;"	v
+verbs	dss.h	/^EXTERN distribution verbs;$/;"	v
+verify	dss.h	/^   int       (*verify) ();$/;"	m	struct:__anon5
+vp	dss.h	/^EXTERN distribution vp;$/;"	v
+vrf_cust	print.c	/^vrf_cust(customer_t *c, int mode)$/;"	f
+vrf_date	print.c	/^int vrf_date(date_t * d, int mode)$/;"	f
+vrf_line	print.c	/^vrf_line(order_t *o, int mode)$/;"	f
+vrf_nation	print.c	/^vrf_nation(code_t *c, int mode)$/;"	f
+vrf_order	print.c	/^vrf_order(order_t *o, int mode)$/;"	f
+vrf_order_line	print.c	/^vrf_order_line(order_t *o, int mode)$/;"	f
+vrf_part	print.c	/^vrf_part(part_t *part, int mode)$/;"	f
+vrf_part_psupp	print.c	/^vrf_part_psupp(part_t *part, int mode)$/;"	f
+vrf_psupp	print.c	/^vrf_psupp(part_t *part, int mode)$/;"	f
+vrf_region	print.c	/^vrf_region(code_t *c, int mode)$/;"	f
+vrf_supp	print.c	/^vrf_supp(supplier_t *supp, int mode)$/;"	f
+vtotal	dss.h	/^   unsigned long vtotal;$/;"	m	struct:__anon5
+week	dsstypes.h	/^    long            week;$/;"	m	struct:__anon19
+weekday_names	build.c	/^char * weekday_names[]={"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};$/;"	v
+weekdayfl	dsstypes.h	/^   char            weekdayfl[2];$/;"	m	struct:__anon18
+weeknuminyear	dsstypes.h	/^   int             weeknuminyear;$/;"	m	struct:__anon18
+weight	dss.h	/^   long      weight;$/;"	m	struct:__anon3
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 01\/19\/95<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 02\/21\/95<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 03\/13\/95<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 05\/08\/95<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 09\/01\/95<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 10\/09\/92:<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 10\/11\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 10\/15\/93<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 10\/21\/92<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 10\/25\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 11\/18\/92<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 12\/06\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 12\/19\/95<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 12\/3\/93<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 1\/12\/92<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 1\/23\/96<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 2\/16\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 2\/26\/93<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 3\/16\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 3\/17\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 3\/2\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 4\/25\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 5\/1\/96<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 6\/15\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 7\/26\/93<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 8\/1\/96<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 8\/24\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 8\/31\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 9\/09\/92:<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 9\/09\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 9\/12\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 9\/15\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 9\/21\/94<\/a><ul>$/;"	a
+xxx	history.html	/^<\/ul><li><a name="xxx">Changes as of 9\/27\/94<\/a><ul>$/;"	a
+year	dsstypes.h	/^    long            year;$/;"	m	struct:__anon19
+year	dsstypes.h	/^   int             year;$/;"	m	struct:__anon18
+yearmonth	dsstypes.h	/^   char            yearmonth[D_YEARMONTH_LEN+1];$/;"	m	struct:__anon18
+yearmonthnum	dsstypes.h	/^   int             yearmonthnum;$/;"	m	struct:__anon18
+yes_no	bm_utils.c	/^yes_no(char *prompt)$/;"	f
