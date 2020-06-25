@@ -56,7 +56,7 @@ __global__ void probe(int* lo_orderdate, int* lo_custkey, int* lo_suppkey, int* 
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(lo_orderdate + tile_offset, items, num_tile_items);
   BlockProbeAndPHT_2<int, int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, year, selection_flags,
-      ht_d, d_len, num_tile_items);
+      ht_d, d_len, 19920101,num_tile_items);
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(lo_revenue + tile_offset, revenue, num_tile_items);
 
@@ -64,12 +64,11 @@ __global__ void probe(int* lo_orderdate, int* lo_custkey, int* lo_suppkey, int* 
   for (int ITEM = 0; ITEM < ITEMS_PER_THREAD; ++ITEM) {
     if ((threadIdx.x + (BLOCK_THREADS * ITEM)) < num_tile_items) {
       if (selection_flags[ITEM]) {
-        int hash = (s_nation[ITEM] * 25 * 7  + c_nation[ITEM] * 7 +  (year[ITEM] - 1992)) % ((1998-1992+1) * 25 * 25);
-        res[hash * 6] = year[ITEM];
-        res[hash * 6 + 1] = c_nation[ITEM];
-        res[hash * 6 + 2] = s_nation[ITEM];
-        /*atomicAdd(&res[hash * 6 + 4], revenue[ITEM]);*/
-        atomicAdd(reinterpret_cast<unsigned long long*>(&res[hash * 6 + 4]), (long long)(revenue[ITEM]));
+        int hash = (s_nation[ITEM] * 250 * 7  + c_nation[ITEM] * 7 +  (year[ITEM] - 1992)) % ((1998-1992+1) * 250 * 250);
+        res[hash * 4] = year[ITEM];
+        res[hash * 4 + 1] = c_nation[ITEM];
+        res[hash * 4 + 2] = s_nation[ITEM];
+        atomicAdd(&res[hash * 4 + 3], revenue[ITEM]);
       }
     }
   }
@@ -144,7 +143,7 @@ void build_hashtable_d(int* filter_col, int *dim_key, int *dim_val, int num_tupl
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(dim_key + tile_offset, items, num_tile_items);
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(dim_val + tile_offset, items2, num_tile_items);
   BlockBuildSelectivePHT_2<int, int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, items2, selection_flags, 
-      hash_table, num_slots, num_tile_items);
+      hash_table, num_slots, 19920101, num_tile_items);
 }
 
 float runQuery(int* lo_orderdate, int* lo_custkey, int* lo_suppkey, int* lo_revenue, int lo_len,
@@ -173,11 +172,11 @@ float runQuery(int* lo_orderdate, int* lo_custkey, int* lo_suppkey, int* lo_reve
   build_hashtable_s<128,4><<<(s_len + tile_items - 1)/tile_items, 128>>>(s_suppkey, s_city, s_len, ht_s, s_len);
   /*CHECK_ERROR();*/
 
-  build_hashtable_c<128,4><<<(s_len + tile_items - 1)/tile_items, 128>>>(c_custkey, c_city, c_len, ht_c, c_len);
+  build_hashtable_c<128,4><<<(c_len + tile_items - 1)/tile_items, 128>>>(c_custkey, c_city, c_len, ht_c, c_len);
   /*CHECK_ERROR();*/
 
   int d_val_min = 19920101;
-  build_hashtable_d<128,4><<<(s_len + tile_items - 1)/tile_items, 128>>>(d_yearmonthnum, d_datekey, d_year, d_len, ht_d, d_val_len, d_val_min);
+  build_hashtable_d<128,4><<<(d_len + tile_items - 1)/tile_items, 128>>>(d_yearmonthnum, d_datekey, d_year, d_len, ht_d, d_val_len, d_val_min);
   /*CHECK_ERROR();*/
 
   int *res;

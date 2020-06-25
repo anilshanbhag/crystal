@@ -109,7 +109,7 @@ __global__ void build_hashtable_p(int *dim_key, int *dim_val, int num_tuples, in
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(dim_val + tile_offset, items, num_tile_items);
   BlockPredGTE<int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, 260, selection_flags, num_tile_items);
-  BlockPredLTE<int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, 267, selection_flags, num_tile_items);
+  BlockPredAndLTE<int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, 267, selection_flags, num_tile_items);
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(dim_key + tile_offset, items2, num_tile_items);
   BlockBuildSelectivePHT_2<int, int, BLOCK_THREADS, ITEMS_PER_THREAD>(items2, items, selection_flags, 

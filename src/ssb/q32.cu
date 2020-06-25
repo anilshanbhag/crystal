@@ -56,7 +56,7 @@ __global__ void probe(int* lo_orderdate, int* lo_custkey, int* lo_suppkey, int* 
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(lo_orderdate + tile_offset, items, num_tile_items);
   BlockProbeAndPHT_2<int, int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, year, selection_flags,
-      ht_d, d_len, num_tile_items);
+      ht_d, d_len, 19920101, num_tile_items);
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(lo_revenue + tile_offset, revenue, num_tile_items);
 
@@ -64,12 +64,11 @@ __global__ void probe(int* lo_orderdate, int* lo_custkey, int* lo_suppkey, int* 
   for (int ITEM = 0; ITEM < ITEMS_PER_THREAD; ++ITEM) {
     if ((threadIdx.x + (BLOCK_THREADS * ITEM)) < num_tile_items) {
       if (selection_flags[ITEM]) {
-        int hash = (s_nation[ITEM] * 25 * 7  + c_nation[ITEM] * 7 +  (year[ITEM] - 1992)) % ((1998-1992+1) * 25 * 25);
-        res[hash * 6] = year[ITEM];
-        res[hash * 6 + 1] = c_nation[ITEM];
-        res[hash * 6 + 2] = s_nation[ITEM];
-        /*atomicAdd(&res[hash * 6 + 4], revenue[ITEM]);*/
-        atomicAdd(reinterpret_cast<unsigned long long*>(&res[hash * 6 + 4]), (long long)(revenue[ITEM]));
+        int hash = (s_nation[ITEM] * 250 * 7  + c_nation[ITEM] * 7 +  (year[ITEM] - 1992)) % ((1998-1992+1) * 250 * 250);
+        res[hash * 4] = year[ITEM];
+        res[hash * 4 + 1] = c_nation[ITEM];
+        res[hash * 4 + 2] = s_nation[ITEM];
+        atomicAdd(&res[hash * 4 + 3], revenue[ITEM]);
       }
     }
   }
@@ -137,11 +136,11 @@ __global__ void build_hashtable_d(int *dim_key, int *dim_val, int num_tuples, in
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(dim_val + tile_offset, items, num_tile_items);
   BlockPredGTE<int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, 1992, selection_flags, num_tile_items);
-  BlockPredLTE<int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, 1997, selection_flags, num_tile_items);
+  BlockPredAndLTE<int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, 1997, selection_flags, num_tile_items);
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(dim_key + tile_offset, items2, num_tile_items);
   BlockBuildSelectivePHT_2<int, int, BLOCK_THREADS, ITEMS_PER_THREAD>(items2, items, selection_flags, 
-      hash_table, num_slots, num_tile_items);
+      hash_table, num_slots, 19920101, num_tile_items);
 }
 
 float runQuery(int* lo_orderdate, int* lo_custkey, int* lo_suppkey, int* lo_revenue, int lo_len,
@@ -210,24 +209,6 @@ float runQuery(int* lo_orderdate, int* lo_custkey, int* lo_suppkey, int* lo_reve
   delete[] h_res;
 
   return time_query;
-}
-
-int murmur(int k) {
-  int h = 0xcd2e2c20;
-  const int len = 4;
-  k *= 0xcc9e2d51;
-  k = (k << 15) | (k >> 17);
-  k *= 0x1b873593;
-  h ^= k;
-  h = (h << 13) | (h >> 19);
-  h = (h * 5) + 0xe6546b64;
-  h ^= len;
-  h ^= h >> 16;
-  h *= 0x85ebca6b;
-  h ^= h >> 13;
-  h *= 0xc2b2ae35;
-  h ^= h >> 16;
-  return h;
 }
 
 /**

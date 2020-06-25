@@ -163,7 +163,7 @@ __global__ void build_hashtable_d(int *dim_key, int *dim_val, int num_tuples, in
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(dim_key + tile_offset, items, num_tile_items);
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(dim_val + tile_offset, items2, num_tile_items);
   BlockBuildSelectivePHT_2<int, int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, items2, selection_flags,
-      hash_table, num_slots, num_tile_items);
+      hash_table, num_slots, val_min, num_tile_items);
 }
 
 float runQuery(int* lo_orderdate, int* lo_custkey, int* lo_partkey, int* lo_suppkey, int* lo_revenue, int* lo_supplycost, int lo_len,

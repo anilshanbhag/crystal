@@ -56,7 +56,7 @@ __global__ void probe(int* lo_orderdate, int* lo_custkey, int* lo_suppkey, int* 
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(lo_orderdate + tile_offset, items, num_tile_items);
   BlockProbeAndPHT_2<int, int, BLOCK_THREADS, ITEMS_PER_THREAD>(items, year, selection_flags,
-      ht_d, d_len, num_tile_items);
+      ht_d, d_len, 19920101, num_tile_items);
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(lo_revenue + tile_offset, revenue, num_tile_items);
 
@@ -144,7 +144,7 @@ void build_hashtable_d(int *dim_key, int *dim_val, int num_tuples, int *hash_tab
 
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(dim_key + tile_offset, items2, num_tile_items);
   BlockBuildSelectivePHT_2<int, int, BLOCK_THREADS, ITEMS_PER_THREAD>(items2, items, selection_flags, 
-      hash_table, num_slots, num_tile_items);
+      hash_table, num_slots, 19920101, num_tile_items);
 }
 
 float runQuery(int* lo_orderdate, int* lo_custkey, int* lo_suppkey, int* lo_revenue, int lo_len,
