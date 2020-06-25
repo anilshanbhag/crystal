@@ -38,7 +38,7 @@ setup:
     rm 1.6.4.zip; \
 	fi
 	mkdir -p bin/ssb obj/ssb
-	mkdir -p bin/ops obj/ssb
+	mkdir -p bin/ops obj/ops
 
 clean:
 	rm -rf bin/* obj/*
