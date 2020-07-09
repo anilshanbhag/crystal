@@ -40,9 +40,9 @@ __device__ __forceinline__ void BlockStore(
   T* block_itr = out;
 
   if ((BLOCK_THREADS * ITEMS_PER_THREAD) == num_items) {
-    BlockStoreDirect<BLOCK_THREADS, ITEMS_PER_THREAD>(threadIdx.x, block_itr, items);
+    BlockStoreDirect<T, BLOCK_THREADS, ITEMS_PER_THREAD>(threadIdx.x, block_itr, items);
   } else {
-    BlockStoreDirect<BLOCK_THREADS, ITEMS_PER_THREAD>(threadIdx.x, block_itr, items, num_items);
+    BlockStoreDirect<T, BLOCK_THREADS, ITEMS_PER_THREAD>(threadIdx.x, block_itr, items, num_items);
   }
 }
 
