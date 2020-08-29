@@ -58,6 +58,7 @@ __global__ void probe_kernel(int *fact_fkey, int *fact_val, int num_tuples,
     num_tile_items = num_tuples - tile_offset;
   }
 
+  InitFlags<BLOCK_THREADS, ITEMS_PER_THREAD>(selection_flags);
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(fact_fkey + tile_offset, keys, num_tile_items);
   BlockLoad<int, BLOCK_THREADS, ITEMS_PER_THREAD>(fact_val + tile_offset, vals, num_tile_items);
 
